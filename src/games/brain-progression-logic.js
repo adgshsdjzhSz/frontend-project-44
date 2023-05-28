@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 import { gameEngine } from '../index.js';
 import randomNum from '../../utils.js';
+
 const task = 'What number is missing in the progression?';
 const progressionGame = () => {
   const firstNumber = randomNum(20);
