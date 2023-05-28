@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 import { gameEngine } from '../index.js';
-import randomNum from '../../utils.js'
+import randomNum from '../../utils.js';
+
 const task = 'What is the result of the expression?';
 
 const brainCalcGame = () => {

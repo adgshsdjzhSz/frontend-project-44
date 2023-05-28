@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 import { gameEngine } from '../index.js';
 import randomNum from '../../utils.js';
+
 const task = 'Find the greatest common divisor of given numbers.';
 
 const brainGCDGame = () => {
