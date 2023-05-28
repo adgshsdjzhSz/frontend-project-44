@@ -1,5 +1,6 @@
 import readlineSync from 'readline-sync';
 import greetings from './cli.js';
+import randomNum from '../utils.js'
 
 const begin = (task) => {
   const name = greetings();
